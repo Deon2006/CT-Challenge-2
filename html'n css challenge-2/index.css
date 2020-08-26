@@ -1,6 +1,14 @@
 #main {
     color: black;
 }
-.maindoc {
+.main-doc {
     color: black;
+}
+.main-section {
+    color: black;
+}
+header {
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: bold;
 }
