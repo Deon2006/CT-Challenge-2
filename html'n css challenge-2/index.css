@@ -1,7 +1,7 @@
 #main {
     color: black;
 }
-.main-doc {
+#main-doc {
     color: black;
 }
 .main-section {
@@ -9,6 +9,18 @@
 }
 header {
     font-size: xx-large;
-    font-style: oblique;
     font-weight: bold;
+}
+#navbar {
+    color: black;
+}
+.navlink {
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    width: 160px;
 }
