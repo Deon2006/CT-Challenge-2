@@ -4,7 +4,19 @@
         <link rel="stylesheet" href="index.css">
         <title>Technical Documentation</title>
     </head>
-    <main>
+    <nav id="navbar">
+        <ul>
+        <header class="start">JS Documentation</header>
+        <a class="navlink" href="#Introduction"><li>Introduction</li></a>
+        <a class="navlink" href="#What_you_should_already_know"><li>What you should already know</li></a>
+        <a class="navlink" href="#JavaScript_and_Java"><li>JavaScript and Java</li></a>
+        <a class="navlink" href="#Hello_World"><li>Hello World</li></a>
+        <a class="navlink" href="#Variables"><li>Variables</li></a>
+        <a class="navlink" href="#Declaring_variables"><li>Declaring variables</li></a>
+        <a class="navlink" href="#Variable_scope"><li>Variable scope</li></a>
+        </ul>
+    </nav>
+    <main id="main-doc">
         <section id="Introduction" class="main-section">
             <header>Introduction</header>
             <p>
@@ -35,7 +47,7 @@
             </ul>
         </section>
 
-        <section id="Javascript_and_Java" class="main-section">
+        <section id="JavaScript_and_Java" class="main-section">
             <header>JavaScript and Java</header>
             <p>
                 JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.
@@ -53,12 +65,14 @@
             <p>
                 To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
             </p>
-            <code>
-                function greetMe(yourName) {
-                    alert("Hello " + yourName);
-                  }
-                  greetMe("World");
-            </code>
+<code>
+<pre>
+function greetMe(yourName) {
+    alert("Hello " + yourName);
+   }
+   greetMe("World");
+</pre>              
+</code>
             <p>
                 Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
             </p>
@@ -81,15 +95,15 @@
             <header>Declaring variables</header>
             <p>You can declare a variable in three ways:</p>
             <p>With the keyword var. For example,</p>
-            <code>var x = 42.</code>
+            <code class="ex">var x = 42.</code>
             <p>This syntax can be used to declare both local and global variables.</p>
             <p>By simply assigning it a value. For example,</p>
-            <code>x = 42.</code>
+            <code class="ex">x = 42.</code>
             <p>
                 This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.
             </p>
             <p>With the keyword let. For example,</p>
-            <code>let y = 13.</code>
+            <code class="ex">let y = 13.</code>
             <p>
                 This syntax can be used to declare a block scope local variable. See Variable scope below.
             </p>
@@ -123,16 +137,4 @@ console.log(y);
         </code>
         </section>
     </main>
-    <nav id="navbar">
-        <header>JS Documentation</header>
-        <ul>
-        <a class="navlink" href="#Introduction"><li>Introduction</li></a>
-        <a class="navlink" href="#What_you_should_already_know"><li>What you should already know</li></a>
-        <a class="navlink" href="#_Javascript_and_Java"><li>Javascript and Java</li></a>
-        <a class="navlink" href="#Hello_World"><li>Hello World</li></a>
-        <a class="navlink" href="#Variables"><li>Variables</li></a>
-        <a class="navlink" href="#Declaring_variables"><li>Declaring variables</li></a>
-        <a class="navlink" href="#Variable_scope"><li>Variable scope</li></a>
-        </ul>
-    </nav>
 </html>
