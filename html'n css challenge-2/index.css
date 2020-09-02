@@ -1,9 +1,6 @@
 html {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-#main {
-    color: grey;
-}
 #main-doc {
     color: grey;
     padding-left: 310px;
@@ -14,17 +11,20 @@ html {
 header {
     font-size: xx-large;
     color: black;
+    text-shadow: blue 2px 2px 2px;
 }
 #navbar {
+    margin: 0px;
     padding: 0px;
-    border-right: grey solid 2px;
+    border-right: blue solid 2px;
     width: fit-content;
     height: 100%;
     position: fixed;
     overflow: auto;
+    background-color: grey;
 }
 .navlink {
-    color: grey;
+    color: white;
     text-decoration: none;
     list-style-type: none;
     margin: 0px;
@@ -32,10 +32,13 @@ header {
     display: block;
     width: 240px;
     border-bottom: black solid 1px;
+    text-shadow: blue 2px 2px 2px;
+    background-color: grey;
 }
 .navlink:hover {
     color: white;
-    background-color: black;
+    text-shadow: black 2px 2px 2px;
+    background-color: blue;
 }
 .ex,pre {
     background-color: lightgrey;
@@ -45,6 +48,7 @@ header {
     text-align: center;
     border-bottom: black solid 1px;
 }
-ul a {
-    padding: 0px;
+.navlink:active {
+    color: white;
+    background-color: blue;
 }
